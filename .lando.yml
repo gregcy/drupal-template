@@ -1,0 +1,28 @@
+name: drupalize
+recipe: drupal10
+config:
+  webroot: web
+  via: nginx
+  php: 8.2
+  database: mysql:8.0
+  composer_version: 2.7.2
+  xdebug: false
+  config:
+    php: .lando.php.ini
+services:
+  appserver:
+    overrides:
+      environment:
+        XDEBUG_MODE:
+tooling:
+  xdebug-on:
+    service: appserver
+    description: Enable xdebug for nginx.
+    cmd: docker-php-ext-enable xdebug && pkill -o -USR2 php-fpm && echo "Enabling xdebug enabled"
+    user: root
+
+  xdebug-off:
+    service: appserver
+    description: Disable xdebug for nginx.
+    cmd: rm -f /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && pkill -o -USR2 php-fpm && echo "Xdebug disabled"
+    user: root

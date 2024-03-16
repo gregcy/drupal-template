@@ -1,0 +1,19 @@
+uuid: df9a4b31-a3a5-4c63-a324-20f1191c78be
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: Development
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/development
+module:
+  config_split: 0
+  devel: 0
+  devel_kint_extras: 0
+theme: {  }
+complete_list: {  }
+partial_list: {  }
