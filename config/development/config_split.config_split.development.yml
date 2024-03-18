@@ -14,6 +14,7 @@ module:
   config_split: 0
   devel: 0
   devel_kint_extras: 0
+  project_browser: 0
   tracer: 0
   webprofiler: 0
 theme: {  }
