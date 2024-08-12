@@ -894,3 +894,6 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['hash_salt'] = 'tZWsbtW8OrWt0Hd9aLH0ftOX-QRfiawtGxDDXal0NkIxlMinrHyacCfQQxcqx3V86L0B3vqI8A';
+
+$settings['state_cache'] = FALSE;
+
