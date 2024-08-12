@@ -21,4 +21,5 @@ module:
   webprofiler: 0
 theme: {  }
 complete_list: {  }
-partial_list: {  }
+partial_list:
+  - system.performance
