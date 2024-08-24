@@ -55,3 +55,7 @@ todo
 The [cweagnas/composer-patches](https://github.com/cweagans/composer-patches) is included to allow management of patches for both Drupal core and contributed modules using the composer.json file.
 
 ### Libraries Installation via Composer
+
+The [oomphinc/composer-installers-extender](https://github.com/oomphinc/composer-installers-extender) in combination with [cweagans/composer-patches](https://github.com/cweagans/composer-patches) is used to allow the installation of libraries via Composer.
+
+If you are going to manually manage the libraries you should update the .gitgnore file to exclude the libraries folder.
