@@ -50,3 +50,8 @@ todo
 - [Stage File Proxy](https://www.drupal.org/project/stage_file_proxy)
 - [Upgrade Status](https://www.drupal.org/project/upgrade_status)
 - [Webprofiler](https://www.drupal.org/project/webprofiler)
+
+### Composer Patches
+The [cweagnas/composer-patches](https://github.com/cweagans/composer-patches) is included to allow management of patches for both Drupal core and contributed modules using the composer.json file.
+
+### Libraries Installation via Composer
