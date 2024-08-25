@@ -59,3 +59,6 @@ The [cweagnas/composer-patches](https://github.com/cweagans/composer-patches) is
 The [oomphinc/composer-installers-extender](https://github.com/oomphinc/composer-installers-extender) in combination with [cweagans/composer-patches](https://github.com/cweagans/composer-patches) is used to allow the installation of libraries via Composer.
 
 If you are going to manually manage the libraries you should update the .gitgnore file to exclude the libraries folder.
+
+### development.services.yml
+To prevent the Drupal core package overriding the development.services.yml file it has been exlcluded from the Drupal scafolding.
